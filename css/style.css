@@ -1,0 +1,131 @@
+@font-face{
+				font-family: "Montserrat";
+				src:url("Montserrat-Bold.otf");
+				/*font-family: "Montserrat2";
+				src:url("Montserrat-Regular.otf");
+				font-family: "Montserrat3";
+				src:url("Montserrat-Light.otf");*/
+			}
+			@font-face{
+				font-family: "MontserratRegular";
+				src:url("Montserrat-Regular.otf");
+
+			}
+			@font-face{
+				font-family: "MontserratLight";
+				src:url("Montserrat-Light.otf");
+
+			}
+			@font-face{
+				font-family: "MontserratExtraBold";
+				src:url("Montserrat-ExtraBold.otf");
+			}
+			@font-face{
+				font-family: "MontserratThin";
+				src:url("Montserrat-Thin.otf");
+			}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "MontserratRegular";
+}
+
+.red-color{
+	color: #DF413D;
+}
+.landing{
+	width: 100%;
+	height: 100vh;
+	color: #ffffff;
+	background-image: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/main-bg.jpg');
+	background-size: cover;
+}
+.landing-title{
+font-family: "MontserratExtraBold";	
+text-align: center;
+}
+.nav-link{
+	font-size: 12px;
+	margin-right: 3rem;
+	padding: 0.5rem 0 !important;
+	border-bottom: 2px solid rgba(0,0,0,0);
+}
+.nav-link:hover{
+	border-bottom: 2px solid #DF413D;
+}
+#contact-button{
+	margin-right: 0;
+	padding: 0.5rem 1rem !important;
+	border: 2px solid #DF413D;
+	border-radius: 50px;
+}
+#contact-button:hover{
+	border: 2px solid rgba(0,0,0,0);
+	background: #DF413D;
+	color: #ffffff;
+}
+.landing h1{ font-family: "Montserrat"; }
+.landing p{ font-family: "MontserratThin";
+letter-spacing: 1px; }
+.intro-text{
+	margin-top: 20%;
+}
+
+.seamless{
+	padding: 3em 0;
+}
+.seamless .row{
+	margin-top: 2em;
+}
+.landing-rider{
+	text-align: center;
+	padding: 0 30%;
+}
+
+.seamless .option{
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(200,200,200,0.95);
+	padding: 3em 2em 4em 2em;
+	cursor: pointer;
+	transition: transform 1s;
+}
+.seamless .option:hover{
+	transform: scale(1.1);
+}
+.seamless .option h5{
+	font-family: Montserrat;
+	margin-top: 3em;
+}
+.seamless .option p{
+	font-size: 14px;
+}
+.seamless .option img{
+	width: 85px;
+}
+
+@media only screen and (max-width: 768px){
+	.intro-text{
+	margin-top: 50%;
+}
+.landing{
+	background-position: right;
+}
+
+.landing-title{
+	font-size: 2em;
+}
+.landing-rider{
+	font-size: 14px;
+	padding: 0 10%;
+}
+}
+
+@media only screen and (max-width: 567px){
+	.intro-text{
+	margin-top: 80%;
+}
+.landing{
+	background-position: right;
+}
+}
