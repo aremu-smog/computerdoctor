@@ -44,23 +44,28 @@ body{
 font-family: "MontserratExtraBold";	
 text-align: center;
 }
+
 .nav-link{
 	font-size: 12px;
 	margin-right: 3rem;
 	padding: 0.5rem 0 !important;
+	color: rgb(100,100,100);
 	border-bottom: 2px solid rgba(0,0,0,0);
 }
 .nav-link:hover{
 	border-bottom: 2px solid #DF413D;
 }
-#contact-button{
+.outline-button{
 	margin-right: 0;
 	padding: 0.5rem 1rem !important;
-	border: 2px solid #DF413D;
+	border: 1.5px solid #DF413D;
+	font-size: 12px;
 	border-radius: 50px;
+	text-decoration: none !important;
+	color: rgb(100,100,100);
 }
-#contact-button:hover{
-	border: 2px solid rgba(0,0,0,0);
+.outline-button:hover{
+	border: 1.5px solid rgba(0,0,0,0);
 	background: #DF413D;
 	color: #ffffff;
 }
@@ -103,7 +108,25 @@ letter-spacing: 1px; }
 .seamless .option img{
 	width: 85px;
 }
+.chat{
+	padding: 3em 0;
+	color: #ffffff;
+	background-color: #101d2c;
+	padding-top: 2em;
+}
 
+.chat h1{
+	font-family: "MontserratExtraBold";
+	margin-top: 5.2em;
+}
+.chat p{
+	font-family: "MontserratLight";
+	font-size: 14px;
+}
+.chat img{
+	width: 70%;
+	position: absolute;
+}
 @media only screen and (max-width: 768px){
 	.intro-text{
 	margin-top: 50%;
