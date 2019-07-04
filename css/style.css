@@ -106,7 +106,7 @@ letter-spacing: 1px; }
 	font-size: 14px;
 }
 .seamless .option img{
-	width: 85px;
+	height: 40px !important;
 }
 .chat{
 	padding: 3em 0;
