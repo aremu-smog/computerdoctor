@@ -44,7 +44,9 @@ body{
 font-family: "MontserratExtraBold";	
 text-align: center;
 }
-
+.navbar img{
+	max-width: 150px;
+}
 .nav-link{
 	font-size: 12px;
 	margin-right: 3rem;
@@ -70,17 +72,17 @@ text-align: center;
 	color: #ffffff;
 }
 .landing h1{ font-family: "Montserrat"; }
-.landing p{ font-family: "MontserratThin";
-letter-spacing: 1px; }
+.landing p{ font-family: "MontserratThin";}
 .intro-text{
 	margin-top: 20%;
 }
 
 .seamless{
-	padding: 3em 0;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 .seamless .row{
-	margin-top: 2em;
+	margin-top: 4em;
 }
 .landing-rider{
 	text-align: center;
@@ -97,14 +99,16 @@ letter-spacing: 1px; }
 	min-height: 400px;
 }
 .seamless .option:hover{
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 .seamless .option h5{
 	font-family: Montserrat;
 	margin-top: 2em;
+	font-size: 1.1em;
 }
 .seamless .option p{
 	font-size: 14px;
+	margin-top: 1em;
 }
 .seamless .option img{
 	height: 40px !important;
@@ -128,7 +132,7 @@ letter-spacing: 1px; }
 	width: 70%;
 	position: absolute;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
 	.intro-text{
 	margin-top: 50%;
 }
@@ -143,13 +147,32 @@ letter-spacing: 1px; }
 	font-size: 14px;
 	padding: 0 10%;
 }
+.seamless {
+	padding: 6em 1.5em;
+	margin-top: 0em;
+}
+.seamless .row .option{
+	margin-top: 2em;
+}
 }
 
 @media only screen and (max-width: 567px){
 	.intro-text{
-	margin-top: 80%;
+	margin-top: 75%;
+}
+.landing h1{
+	font-size: 2em !important;
+}
+.landing p{
+	font-size: 14px;
+	line-height: 1.5em;
 }
 .landing{
 	background-position: right;
+}
+
+.seamless .row .option{
+	/*margin: 2em auto auto auto; */
+	text-align: center;
 }
 }
