@@ -140,11 +140,12 @@ text-align: center;
 }
 .testimonial .inner{
 	width: 400%;
-	margin-left: -50%;
+	transition: margin-left .5s;
 }
 
 .testimonial .item img{
  width: 250px;
+ margin-top: 1em;
 }
 
 .testimonial .item p{
@@ -159,18 +160,21 @@ text-align: center;
 	height: 10px;
 	border-radius: 10px;
 	margin-right: 1em;
-	background: #000000;
+	background: #cccccc;
 	transition: transform .5s;
 	cursor: pointer;
 }
 .testimonial .buttons{
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	height: 20px;
 }
 .testimonial .buttons span:hover{
 	transform: scale(1.5);
 }
-.testimonial .buttons span.active{
+.active{
+	background: #101d2c !important;
 	transform: scale(1.5);
 }
 
@@ -232,4 +236,14 @@ text-align: center;
 .chat .col-md-6:first-child{
 	padding-bottom: 2em;
 }
+.testimonial .item img{
+ width: 170px;
+}
+.testimonial .item p{
+	padding: 2em 0%;
+	color: #101d2c;
+	font-size: 1em;
+}
+
+
 }
