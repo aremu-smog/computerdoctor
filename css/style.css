@@ -131,6 +131,50 @@ text-align: center;
 .chat img{
 	width: 70%;
 }
+.testimonials {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background: #ffffff;
+}
+.testimonial {
+	overflow: hidden;
+}
+.testimonial .inner{
+	width: 400%;
+	margin-left: -50%;
+}
+
+.testimonial .item img{
+ width: 250px;
+}
+
+.testimonial .item p{
+	padding: 2em 20%;
+	color: #101d2c;
+	font-size: 1.1em;
+}
+
+.testimonial .buttons span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	margin-right: 1em;
+	background: #000000;
+	transition: transform .5s;
+	cursor: pointer;
+}
+.testimonail .buttons{
+	display: flex;
+	align-items: center;
+}
+.testimonial .buttons span:hover{
+	transform: scale(1.5);
+}
+.testimonial .buttons span.active{
+	transform: scale(1.5);
+}
+
 @media only screen and (max-width: 992px){
 	.intro-text{
 	margin-top: 50%;
